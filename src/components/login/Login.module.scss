@@ -1,0 +1,45 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  
+    & > div {
+      margin-bottom: 1rem;
+      width: 100%;
+  
+      & > label {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: #fff;
+      }
+  
+      & > input {
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid #ccc;
+      }
+  
+      & > p {
+        color: red;
+        margin: 0.5rem 0 0;
+      }
+    }
+  
+    & > button {
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  
