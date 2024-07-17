@@ -33,9 +33,9 @@ const Table = () => {
 
     return (
         <div>
-            <div>
-                {/* <Navbar/> */}
-            </div>
+            {/* <div>
+                <Navbar/>
+            </div> */}
 
             <table className={styles.table}>
                 <thead>
