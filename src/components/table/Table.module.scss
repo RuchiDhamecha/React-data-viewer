@@ -3,7 +3,7 @@
     max-width: 800px;
     margin: 0 auto;
     border-collapse: collapse;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(177, 10, 10, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -19,5 +19,9 @@
     & th {
       background: rgba(255, 255, 255, 0.2);
     }
+
+  }
+  .Navbar{
+    width: 100%;
   }
   
